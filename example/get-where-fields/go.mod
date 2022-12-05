@@ -13,7 +13,7 @@ replace github.com/hiroBzinga/bun/dialect/sqlitedialect => ../../dialect/sqlited
 replace github.com/hiroBzinga/bun/driver/sqliteshim => ../../driver/sqliteshim
 
 require (
-	github.com/hiroBzinga/bun v1.2.5
+	github.com/hiroBzinga/bun v1.2.6
 	github.com/hiroBzinga/bun/dialect/sqlitedialect v1.2.0
 	github.com/hiroBzinga/bun/driver/sqliteshim v1.2.0
 )

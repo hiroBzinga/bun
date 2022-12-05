@@ -6,7 +6,7 @@ replace github.com/hiroBzinga/bun => ../..
 
 require (
 	github.com/stretchr/testify v1.7.0
-	github.com/hiroBzinga/bun v1.2.5
+	github.com/hiroBzinga/bun v1.2.6
 	mellium.im/sasl v0.3.0
 )
 

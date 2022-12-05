@@ -14,7 +14,7 @@ replace github.com/hiroBzinga/bun/dialect/pgdialect => ../../dialect/pgdialect
 
 require (
 	github.com/davecgh/go-spew v1.1.1
-	github.com/hiroBzinga/bun v1.2.5
+	github.com/hiroBzinga/bun v1.2.6
 	github.com/hiroBzinga/bun/dbfixture v1.2.0
 	github.com/hiroBzinga/bun/dialect/pgdialect v1.2.0
 	github.com/hiroBzinga/bun/driver/pgdriver v1.2.0

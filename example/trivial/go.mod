@@ -21,7 +21,7 @@ replace github.com/hiroBzinga/bun/dialect/mssqldialect => ../../dialect/mssqldia
 require (
 	github.com/denisenkom/go-mssqldb v0.12.2
 	github.com/go-sql-driver/mysql v1.6.0
-	github.com/hiroBzinga/bun v1.2.5
+	github.com/hiroBzinga/bun v1.2.6
 	github.com/hiroBzinga/bun/dialect/mssqldialect v1.2.0
 	github.com/hiroBzinga/bun/dialect/mysqldialect v1.2.0
 	github.com/hiroBzinga/bun/dialect/pgdialect v1.2.0

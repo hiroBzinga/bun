@@ -28,7 +28,7 @@ require (
 	github.com/google/uuid v1.3.0
 	github.com/jackc/pgx/v4 v4.11.0
 	github.com/stretchr/testify v1.7.0
-	github.com/hiroBzinga/bun v1.2.5
+	github.com/hiroBzinga/bun v1.2.6
 	github.com/hiroBzinga/bun/dbfixture v1.2.0
 	github.com/hiroBzinga/bun/dialect/mssqldialect v1.2.0
 	github.com/hiroBzinga/bun/dialect/mysqldialect v1.2.0
