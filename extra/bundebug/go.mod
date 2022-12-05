@@ -6,7 +6,7 @@ replace github.com/hiroBzinga/bun => ../..
 
 require (
 	github.com/fatih/color v1.13.0
-	github.com/hiroBzinga/bun v1.2.0
+	github.com/hiroBzinga/bun v1.2.5
 )
 
 require (
