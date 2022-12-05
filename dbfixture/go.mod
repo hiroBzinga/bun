@@ -5,7 +5,7 @@ go 1.18
 replace github.com/hiroBzinga/bun => ../
 
 require (
-	github.com/hiroBzinga/bun v1.2.2
+	github.com/hiroBzinga/bun v1.2.3
 	gopkg.in/yaml.v3 v3.0.1
 )
 
