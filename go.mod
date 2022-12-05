@@ -1,8 +1,9 @@
-module github.com/uptrace/bun
+module github.com/hiroBzinga/bun
 
 go 1.18
 
 require (
+	github.com/bxcodec/dbresolver v1.0.1
 	github.com/jinzhu/inflection v1.0.0
 	github.com/rs/zerolog v1.28.0
 	github.com/stretchr/testify v1.7.0

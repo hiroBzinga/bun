@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/uptrace/bun/schema"
+	"github.com/hiroBzinga/bun/schema"
 )
 
 type sliceTableModel struct {
