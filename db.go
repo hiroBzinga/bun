@@ -6,13 +6,14 @@ import (
 	"database/sql"
 	"encoding/hex"
 	"fmt"
+	"github.com/hiroBzinga/dbresolver"
 	"reflect"
 	"strings"
 	"sync/atomic"
 
-	"github.com/uptrace/bun/dialect/feature"
-	"github.com/uptrace/bun/internal"
-	"github.com/uptrace/bun/schema"
+	"github.com/hiroBzinga/bun/dialect/feature"
+	"github.com/hiroBzinga/bun/internal"
+	"github.com/hiroBzinga/bun/schema"
 )
 
 const (
@@ -33,7 +34,7 @@ func WithDiscardUnknownColumns() DBOption {
 }
 
 type DB struct {
-	*sql.DB
+	DB *dbresolver.DBImpl
 
 	dialect  schema.Dialect
 	features feature.Feature
@@ -46,8 +47,8 @@ type DB struct {
 	stats DBStats
 }
 
-func NewDB(sqldb *sql.DB, dialect schema.Dialect, opts ...DBOption) *DB {
-	dialect.Init(sqldb)
+func NewDB(sqldb *dbresolver.DBImpl, dialect schema.Dialect, opts ...DBOption) *DB {
+	dialect.Init(sqldb.DB)
 
 	db := &DB{
 		DB:       sqldb,
@@ -421,7 +422,7 @@ func (c Conn) BeginTx(ctx context.Context, opts *sql.TxOptions) (Tx, error) {
 //------------------------------------------------------------------------------
 
 type Stmt struct {
-	*sql.Stmt
+	dbresolver.Stmt
 }
 
 func (db *DB) Prepare(query string) (Stmt, error) {

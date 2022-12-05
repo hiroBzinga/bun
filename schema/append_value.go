@@ -10,10 +10,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/uptrace/bun/dialect"
-	"github.com/uptrace/bun/dialect/sqltype"
-	"github.com/uptrace/bun/extra/bunjson"
-	"github.com/uptrace/bun/internal"
+	"github.com/hiroBzinga/bun/dialect"
+	"github.com/hiroBzinga/bun/dialect/sqltype"
+	"github.com/hiroBzinga/bun/extra/bunjson"
+	"github.com/hiroBzinga/bun/internal"
 	"github.com/vmihailenco/msgpack/v5"
 )
 

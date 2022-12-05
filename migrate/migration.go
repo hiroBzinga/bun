@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/uptrace/bun"
+	"github.com/hiroBzinga/bun"
 )
 
 type Migration struct {
