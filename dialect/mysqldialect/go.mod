@@ -5,7 +5,7 @@ go 1.18
 replace github.com/hiroBzinga/bun => ../..
 
 require (
-	github.com/hiroBzinga/bun v1.2.2
+	github.com/hiroBzinga/bun v1.2.3
 	golang.org/x/mod v0.7.0
 )
 
