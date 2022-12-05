@@ -5,11 +5,11 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/uptrace/bun"
-	"github.com/uptrace/bun/dialect"
-	"github.com/uptrace/bun/dialect/feature"
-	"github.com/uptrace/bun/dialect/sqltype"
-	"github.com/uptrace/bun/schema"
+	"github.com/hiroBzinga/bun"
+	"github.com/hiroBzinga/bun/dialect"
+	"github.com/hiroBzinga/bun/dialect/feature"
+	"github.com/hiroBzinga/bun/dialect/sqltype"
+	"github.com/hiroBzinga/bun/schema"
 )
 
 func init() {

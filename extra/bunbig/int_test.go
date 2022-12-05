@@ -5,8 +5,8 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/hiroBzinga/bun/extra/bunbig"
 	"github.com/stretchr/testify/assert"
-	"github.com/uptrace/bun/extra/bunbig"
 	"gopkg.in/yaml.v3"
 )
 

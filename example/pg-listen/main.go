@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/uptrace/bun"
-	"github.com/uptrace/bun/dialect/pgdialect"
-	"github.com/uptrace/bun/driver/pgdriver"
-	"github.com/uptrace/bun/extra/bundebug"
+	"github.com/hiroBzinga/bun"
+	"github.com/hiroBzinga/bun/dialect/pgdialect"
+	"github.com/hiroBzinga/bun/driver/pgdriver"
+	"github.com/hiroBzinga/bun/extra/bundebug"
 )
 
 func main() {

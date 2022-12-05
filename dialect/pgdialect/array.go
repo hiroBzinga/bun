@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/uptrace/bun/schema"
+	"github.com/hiroBzinga/bun/schema"
 )
 
 type ArrayValue struct {

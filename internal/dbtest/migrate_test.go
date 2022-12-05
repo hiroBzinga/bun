@@ -5,9 +5,9 @@ import (
 	"errors"
 	"testing"
 
+	"github.com/hiroBzinga/bun"
+	"github.com/hiroBzinga/bun/migrate"
 	"github.com/stretchr/testify/require"
-	"github.com/uptrace/bun"
-	"github.com/uptrace/bun/migrate"
 )
 
 func TestMigrate(t *testing.T) {

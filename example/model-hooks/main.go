@@ -6,10 +6,10 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/uptrace/bun"
-	"github.com/uptrace/bun/dialect/sqlitedialect"
-	"github.com/uptrace/bun/driver/sqliteshim"
-	"github.com/uptrace/bun/extra/bundebug"
+	"github.com/hiroBzinga/bun"
+	"github.com/hiroBzinga/bun/dialect/sqlitedialect"
+	"github.com/hiroBzinga/bun/driver/sqliteshim"
+	"github.com/hiroBzinga/bun/extra/bundebug"
 )
 
 func main() {

@@ -1,24 +1,24 @@
-module github.com/uptrace/bun/example/rel-has-many-polymorphic
+module github.com/hiroBzinga/bun/example/rel-has-many-polymorphic
 
 go 1.18
 
-replace github.com/uptrace/bun => ../..
+replace github.com/hiroBzinga/bun => ../..
 
-replace github.com/uptrace/bun/dbfixture => ../../dbfixture
+replace github.com/hiroBzinga/bun/dbfixture => ../../dbfixture
 
-replace github.com/uptrace/bun/extra/bundebug => ../../extra/bundebug
+replace github.com/hiroBzinga/bun/extra/bundebug => ../../extra/bundebug
 
-replace github.com/uptrace/bun/dialect/sqlitedialect => ../../dialect/sqlitedialect
+replace github.com/hiroBzinga/bun/dialect/sqlitedialect => ../../dialect/sqlitedialect
 
-replace github.com/uptrace/bun/driver/sqliteshim => ../../driver/sqliteshim
+replace github.com/hiroBzinga/bun/driver/sqliteshim => ../../driver/sqliteshim
 
 require (
 	github.com/davecgh/go-spew v1.1.1
-	github.com/uptrace/bun v1.1.9
-	github.com/uptrace/bun/dbfixture v1.1.9
-	github.com/uptrace/bun/dialect/sqlitedialect v1.1.9
-	github.com/uptrace/bun/driver/sqliteshim v1.1.9
-	github.com/uptrace/bun/extra/bundebug v1.1.9
+	github.com/hiroBzinga/bun v1.1.9
+	github.com/hiroBzinga/bun/dbfixture v1.1.9
+	github.com/hiroBzinga/bun/dialect/sqlitedialect v1.1.9
+	github.com/hiroBzinga/bun/driver/sqliteshim v1.1.9
+	github.com/hiroBzinga/bun/extra/bundebug v1.1.9
 )
 
 require (

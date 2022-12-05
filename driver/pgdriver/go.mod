@@ -1,12 +1,12 @@
-module github.com/uptrace/bun/driver/pgdriver
+module github.com/hiroBzinga/bun/driver/pgdriver
 
 go 1.18
 
-replace github.com/uptrace/bun => ../..
+replace github.com/hiroBzinga/bun => ../..
 
 require (
 	github.com/stretchr/testify v1.7.0
-	github.com/uptrace/bun v1.1.9
+	github.com/hiroBzinga/bun v1.2.0
 	mellium.im/sasl v0.3.0
 )
 

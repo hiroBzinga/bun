@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/uptrace/bun"
-	"github.com/uptrace/bun/dialect/feature"
+	"github.com/hiroBzinga/bun"
+	"github.com/hiroBzinga/bun/dialect/feature"
 )
 
 func TestSoftDelete(t *testing.T) {

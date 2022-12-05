@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/uptrace/bun"
-	"github.com/uptrace/bun/dialect/sqlitedialect"
-	"github.com/uptrace/bun/driver/sqliteshim"
+	"github.com/hiroBzinga/bun"
+	"github.com/hiroBzinga/bun/dialect/sqlitedialect"
+	"github.com/hiroBzinga/bun/driver/sqliteshim"
 )
 
 type Item struct {

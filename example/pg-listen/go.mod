@@ -1,20 +1,20 @@
-module github.com/uptrace/bun/example/pg-listen
+module github.com/hiroBzinga/bun/example/pg-listen
 
 go 1.18
 
-replace github.com/uptrace/bun => ../..
+replace github.com/hiroBzinga/bun => ../..
 
-replace github.com/uptrace/bun/extra/bundebug => ../../extra/bundebug
+replace github.com/hiroBzinga/bun/extra/bundebug => ../../extra/bundebug
 
-replace github.com/uptrace/bun/driver/pgdriver => ../../driver/pgdriver
+replace github.com/hiroBzinga/bun/driver/pgdriver => ../../driver/pgdriver
 
-replace github.com/uptrace/bun/dialect/pgdialect => ../../dialect/pgdialect
+replace github.com/hiroBzinga/bun/dialect/pgdialect => ../../dialect/pgdialect
 
 require (
-	github.com/uptrace/bun v1.1.9
-	github.com/uptrace/bun/dialect/pgdialect v1.1.9
-	github.com/uptrace/bun/driver/pgdriver v1.1.9
-	github.com/uptrace/bun/extra/bundebug v1.1.9
+	github.com/hiroBzinga/bun v1.2.0
+	github.com/hiroBzinga/bun/dialect/pgdialect v1.2.0
+	github.com/hiroBzinga/bun/driver/pgdriver v1.2.0
+	github.com/hiroBzinga/bun/extra/bundebug v1.2.0
 )
 
 require (

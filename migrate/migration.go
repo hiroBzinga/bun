@@ -127,7 +127,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/uptrace/bun"
+	"github.com/hiroBzinga/bun"
 )
 
 func init() {

@@ -1,7 +1,7 @@
 # SQL-first Golang ORM for PostgreSQL, MySQL, MSSQL, and SQLite
 
-[![build workflow](https://github.com/uptrace/bun/actions/workflows/build.yml/badge.svg)](https://github.com/uptrace/bun/actions)
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/uptrace/bun)](https://pkg.go.dev/github.com/uptrace/bun)
+[![build workflow](https://github.com/hiroBzinga/bun/actions/workflows/build.yml/badge.svg)](https://github.com/hiroBzinga/bun/actions)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/hiroBzinga/bun)](https://pkg.go.dev/github.com/hiroBzinga/bun)
 [![Documentation](https://img.shields.io/badge/bun-documentation-informational)](https://bun.uptrace.dev/)
 [![Chat](https://discordapp.com/api/guilds/752070105847955518/widget.png)](https://discord.gg/rWtp5Aj)
 
@@ -31,10 +31,10 @@
 Resources:
 
 - [**Get started**](https://bun.uptrace.dev/guide/golang-orm.html)
-- [Examples](https://github.com/uptrace/bun/tree/master/example)
-- [Discussions](https://github.com/uptrace/bun/discussions)
+- [Examples](https://github.com/hiroBzinga/bun/tree/master/example)
+- [Discussions](https://github.com/hiroBzinga/bun/discussions)
 - [Chat](https://discord.gg/rWtp5Aj)
-- [Reference](https://pkg.go.dev/github.com/uptrace/bun)
+- [Reference](https://pkg.go.dev/github.com/hiroBzinga/bun)
 - [Starter kit](https://github.com/go-bun/bun-starter-kit)
 
 Featured projects using Bun:
@@ -54,7 +54,7 @@ Featured projects using Bun:
 - [penguin-statistics](https://github.com/penguin-statistics/backend-next) - Penguin Statistics v3
   Backend.
 - And
-  [hundreds more](https://github.com/uptrace/bun/network/dependents?package_id=UGFja2FnZS0yMjkxOTc4OTA4).
+  [hundreds more](https://github.com/hiroBzinga/bun/network/dependents?package_id=UGFja2FnZS0yMjkxOTc4OTA4).
 
 ## Why another database client?
 
@@ -125,7 +125,7 @@ See [**Getting started**](https://bun.uptrace.dev/guide/golang-orm.html) guide a
 
 ## See also
 
-- [Golang HTTP router](https://github.com/uptrace/bunrouter)
+- [Golang HTTP router](https://github.com/hiroBzinga/bunrouter)
 - [Golang ClickHouse ORM](https://github.com/uptrace/go-clickhouse)
 - [Golang msgpack](https://github.com/vmihailenco/msgpack)
 
@@ -133,6 +133,6 @@ See [**Getting started**](https://bun.uptrace.dev/guide/golang-orm.html) guide a
 
 Thanks to all the people who already contributed!
 
-<a href="https://github.com/uptrace/bun/graphs/contributors">
+<a href="https://github.com/hiroBzinga/bun/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=uptrace/bun" />
 </a>

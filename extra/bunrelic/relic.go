@@ -3,9 +3,9 @@ package bunrelic
 import (
 	"context"
 
+	"github.com/hiroBzinga/bun"
 	"github.com/newrelic/go-agent/v3/newrelic"
 	"github.com/newrelic/go-agent/v3/newrelic/sqlparse"
-	"github.com/uptrace/bun"
 )
 
 type QueryHook struct {
