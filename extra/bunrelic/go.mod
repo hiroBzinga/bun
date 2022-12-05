@@ -6,7 +6,7 @@ replace github.com/hiroBzinga/bun => ../..
 
 require (
 	github.com/newrelic/go-agent/v3 v3.20.1
-	github.com/hiroBzinga/bun v1.2.0
+	github.com/hiroBzinga/bun v1.2.2
 )
 
 require (

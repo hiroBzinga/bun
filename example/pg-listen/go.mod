@@ -11,7 +11,7 @@ replace github.com/hiroBzinga/bun/driver/pgdriver => ../../driver/pgdriver
 replace github.com/hiroBzinga/bun/dialect/pgdialect => ../../dialect/pgdialect
 
 require (
-	github.com/hiroBzinga/bun v1.2.0
+	github.com/hiroBzinga/bun v1.2.2
 	github.com/hiroBzinga/bun/dialect/pgdialect v1.2.0
 	github.com/hiroBzinga/bun/driver/pgdriver v1.2.0
 	github.com/hiroBzinga/bun/extra/bundebug v1.2.0

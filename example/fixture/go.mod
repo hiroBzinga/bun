@@ -13,7 +13,7 @@ replace github.com/hiroBzinga/bun/driver/sqliteshim => ../../driver/sqliteshim
 replace github.com/hiroBzinga/bun/dbfixture => ../../dbfixture
 
 require (
-	github.com/hiroBzinga/bun v1.2.0
+	github.com/hiroBzinga/bun v1.2.2
 	github.com/hiroBzinga/bun/dbfixture v1.2.0
 	github.com/hiroBzinga/bun/dialect/sqlitedialect v1.2.0
 	github.com/hiroBzinga/bun/driver/sqliteshim v1.2.0

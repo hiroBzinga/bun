@@ -16,7 +16,7 @@ replace github.com/hiroBzinga/bun/driver/pgdriver => ../../driver/pgdriver
 
 require (
 	github.com/brianvoe/gofakeit/v5 v5.11.2
-	github.com/hiroBzinga/bun v1.2.0
+	github.com/hiroBzinga/bun v1.2.2
 	github.com/hiroBzinga/bun/dialect/pgdialect v1.2.0
 	github.com/hiroBzinga/bun/driver/pgdriver v1.2.0
 	github.com/hiroBzinga/bun/extra/bunotel v1.2.0
