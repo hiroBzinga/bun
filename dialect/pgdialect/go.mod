@@ -4,7 +4,7 @@ go 1.18
 
 replace github.com/hiroBzinga/bun => ../..
 
-require github.com/hiroBzinga/bun v1.2.5
+require github.com/hiroBzinga/bun v1.2.6
 
 require (
 	github.com/hiroBzinga/dbresolver v1.1.1 // indirect
