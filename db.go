@@ -34,6 +34,8 @@ func WithDiscardUnknownColumns() DBOption {
 }
 
 type DB struct {
+	*dbresolver.DBImpl
+
 	DB *dbresolver.DBImpl
 
 	dialect  schema.Dialect
@@ -47,11 +49,12 @@ type DB struct {
 	stats DBStats
 }
 
-func NewDB(sqldb *dbresolver.DBImpl, dialect schema.Dialect, opts ...DBOption) *DB {
-	dialect.Init(sqldb.DB)
+func NewDB(multipleDBs *dbresolver.DBImpl, dialect schema.Dialect, opts ...DBOption) *DB {
+	dialect.Init(multipleDBs.DB)
 
 	db := &DB{
-		DB:       sqldb,
+		DBImpl:   multipleDBs,
+		DB:       multipleDBs,
 		dialect:  dialect,
 		features: dialect.Features(),
 		fmter:    schema.NewFormatter(dialect),
