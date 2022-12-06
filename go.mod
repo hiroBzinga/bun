@@ -3,7 +3,7 @@ module github.com/hiroBzinga/bun
 go 1.18
 
 require (
-	github.com/hiroBzinga/dbresolver v1.1.1
+	github.com/hiroBzinga/dbresolver v1.1.2
 	github.com/jinzhu/inflection v1.0.0
 	github.com/rs/zerolog v1.28.0
 	github.com/stretchr/testify v1.7.0

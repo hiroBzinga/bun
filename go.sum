@@ -5,6 +5,8 @@ github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSs
 github.com/godbus/dbus/v5 v5.0.4/go.mod h1:xhWf0FNVPg57R7Z0UbKHbJfkEywrmjJnf7w5xrFpKfA=
 github.com/hiroBzinga/dbresolver v1.1.1 h1:rPOE/0TrZOhC9R4PFrk4tkJiwZwxtyMjDgzjOR/0pps=
 github.com/hiroBzinga/dbresolver v1.1.1/go.mod h1:B/vrAkgMRfuMN6L2rr65Qm1YQWyiOcziHumWIUSlVXU=
+github.com/hiroBzinga/dbresolver v1.1.2 h1:fdNkXZ0A2LFBIt8K+cIkYYRM0/slQiBRmcEDVgnh8+0=
+github.com/hiroBzinga/dbresolver v1.1.2/go.mod h1:B/vrAkgMRfuMN6L2rr65Qm1YQWyiOcziHumWIUSlVXU=
 github.com/jinzhu/inflection v1.0.0 h1:K317FqzuhWc8YvSVlFMCCUb36O/S9MCKRDI7QkRKD/E=
 github.com/jinzhu/inflection v1.0.0/go.mod h1:h+uFLlag+Qp1Va5pdKtLDYj+kHp5pxUVkryuEj+Srlc=
 github.com/lib/pq v1.10.6 h1:jbk+ZieJ0D7EVGJYpL9QTz7/YW6UHbmdnZWYyK5cdBs=
